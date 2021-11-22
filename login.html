@@ -1,0 +1,57 @@
+<!DOCTYPE html><html>
+    <head>
+      <title>
+        Login - KIKI
+      </title>
+      <link rel="Message icon" href="./img/message.ico" type="image/x-icon">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="./css/login.css">
+      <script src="./js/login.js"></script>
+    </head>
+  
+    <body id="body"> 
+         <div id="transLayer">   
+       </div> 
+         <div id="loginform">
+        <img src="./img/icons8-message-64.png" alt="messageimg" width="35px" height="35px" id="messageimg">
+        <h3 id="signin" >Sign In</h3>
+        <form>
+            <input type="email" placeholder="Email Address / Username" id="email">
+            <input type="password" placeholder="Password" id="password" autocomplete="on">
+            <input type="button" value="Login" id="login" onclick="toHome()">
+           </form>
+           <div style="margin-top: 10px;">
+            <span><a href="recoverpassword.html" id="rp"><b>Recover my Password</b></a></span>
+            <span><a onclick="displayVerify()" id="va"><b>Verify Account</b></a></span>
+          </div>
+          <div style="margin-top: 40px;">
+              <span id="nyam"><b>Not yet a member?</b></span>
+              <span><a href="signup.html" id="caa"><b>Create an Account</b></a></span>
+          </div>
+        </div>
+        <div><span id="ldi">Login Details Incorrect</span></div>
+        <div id="kiki">
+            <span id="ki">KI</span>
+            <span id="ki2">KI</span>
+        </div>
+        <div id="verifyaccount">
+          <a onclick="closeVerifyAccount()" id="cva"></a>
+          <div>
+            <div>
+              <h3 id="ve">Verify Email</h3>
+              <p id="kindly">Kindly confirm your email address</p>
+              <form>
+                <input type="email" placeholder="e.g kiki@gmail.com" id="ce">
+                <div style="margin-top: 10px;">
+                  <a href="login.html"><button id="cancel">Cancel</button></a>
+                  <input type="button" value="Done" id="done" onclick="toVerifyAccount()">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span id="toast">Email Has Not Been Registered</span>
+        </div>
+    </body>
+    </html> 

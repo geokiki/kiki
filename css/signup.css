@@ -1,0 +1,197 @@
+#body {
+    background-image: url("../img/convo.jpg");
+}
+#transLayer {
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.6;
+}
+#signupform {
+    background-color: white;
+    position: fixed;
+    top: 10%;
+    left: 3%;
+    width: 444px;
+    height: 530px;
+    border-radius: 5px;
+}
+#signupform.vibrate {
+    animation-name: shake;
+    animation-duration: 0.5s;
+}
+@keyframes shake {
+    0% {transform: translate(1px, 1px);}
+    10% { transform: translate(-1px, -2px);}
+    20% { transform: translate(-3px, 0px); }
+    30% { transform: translate(3px, 2px); }
+    40% { transform: translate(1px, -1px); }
+    50% { transform: translate(-1px, 2px); }
+    60% { transform: translate(-3px, 1px); }
+    70% { transform: translate(3px, 1px); }
+    80% { transform: translate(-1px, -1px); }
+    90% { transform: translate(1px, 2px); }
+    100% { transform: translate(1px, -2px); }
+  }
+
+#messageimg {
+    position: relative;
+    top: 10%; 
+    left: 46%; 
+}
+#signup {
+    position: relative;
+    top: 9%;
+    text-align: center;
+    font-weight: 600;
+    color: #fcf951ff;
+    font-family: SF Pro Display,Inter,sans-serif;
+}
+#fullname {
+    position: relative;
+    left: 11%;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #fafafa;
+    width: 335px;
+    height: 30px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    font-size: 14px;
+    font-family: SF Pro Display,Inter,sans-serif;
+}
+#username {
+    position: relative;
+    left: 11%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fafafa;
+    width: 335px;
+    height: 30px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    font-size: 14px;
+    font-family: SF Pro Display,Inter,sans-serif;
+}
+#email {
+    position: relative;
+    left: 11%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fafafa;
+    width: 335px;
+    height: 30px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    font-size: 14px;
+    font-family: SF Pro Display,Inter,sans-serif;
+}
+#password {
+    position: relative;
+    left: 11%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fafafa;
+    width: 335px;
+    height: 30px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    font-size: 14px;
+    font-family: SF Pro Display,Inter,sans-serif;
+}
+#check {
+    position: relative;
+    right: 64.5%;
+    top: 15%;
+}
+#terms {
+    position: relative;
+    margin-top: 20px;
+    left: 16%;
+    font-size: 12px;
+    font-family: SF Pro Display,Inter,sans-serif;
+}
+#tc {
+    position: relative;
+    left: 1%;
+    color: #555555;
+    font-size: 12px;
+    cursor: default;
+    font-family: SF Pro Display,Inter,sans-serif;
+    text-decoration: none;
+}
+#signup2 {
+    background-color: #d7a9e3ff;
+    color: #ffffff; 
+    margin-top: 30px; 
+    position: relative; 
+    left: 11%; 
+    width: 350px; 
+    height: 40px; 
+    border: 2px;
+    border-radius: 5px;
+    border-color: #d7a9e3ff;
+    border-style: solid;
+}
+#aam {
+    color: black;
+    position: relative; 
+    left: 25%;
+    font-family: SF Pro Display,Inter,sans-serif;
+    font-size: 12px;
+    opacity: 0.8;
+}
+#si {
+    color: #d7a9e3ff;
+    position: relative;
+    left: 25%;
+    font-family: SF Pro Display,Inter,sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#ki {
+    color: #d7a9e3ff;
+    font-size: 80px;
+    font-family: sans-serif;
+    position: relative;
+    top: 0%;
+    cursor: default;
+}
+#ki2 {
+    color: #ffffff;
+    font-size: 80px;
+    font-family: sans-serif;
+    position: relative;
+    top: 0%;
+    right: 19%;
+    animation-name: ki2;
+    animation-duration: 5s;
+    cursor: default;      
+}
+@keyframes ki2 {
+    from {right: 19%;}
+    to {right: 7%;}
+}
+#kiki {
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    bottom: 37%;
+    right: 37%;
+}
+#kiki:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;   
+}

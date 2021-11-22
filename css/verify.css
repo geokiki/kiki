@@ -1,0 +1,97 @@
+#body {
+    background-image: url("../img/convo.jpg");
+}
+#transLayer {
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.6;
+}
+#rpform {
+    background-color: white;
+    position: fixed;
+    top: 25%;
+    left: 3%;
+    width: 444px;
+    height: 300px;
+    border-radius: 5px;
+}
+#messageimg {
+    position: relative;
+    top: 12%; 
+    left: 46%; 
+}
+#va {
+    position: relative;
+    top: 12%;
+    text-align: center;
+    font-weight: 600;
+    color: #fcf951ff;
+    font-family: sans-serif;
+}
+#email {
+    position: relative;
+    left: 11%;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #fafafa;
+    width: 335px;
+    height: 30px;
+    outline: 0px;
+    border: 2px;
+    border-radius: 5px;
+    border-color: #f3f3f3;
+    border-style: solid;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#v {
+    background-color: #d7a9e3ff;
+    color: #ffffff; 
+    margin-top: 10px; 
+    position: relative; 
+    left: 11%; 
+    width: 350px; 
+    height: 40px; 
+    border: 2px;
+    border-radius: 5px;
+    border-color: #d7a9e3ff;
+    border-style: solid;
+}
+#ki {
+    color: #d7a9e3ff;
+    font-size: 80px;
+    font-family: sans-serif;
+    position: relative;
+    top: 0%;
+    cursor: default;
+}
+#ki2 {
+    color: #ffffff;
+    font-size: 80px;
+    font-family: sans-serif;
+    position: relative;
+    top: 0%;
+    right: 19%;
+    animation-name: ki2;
+    animation-duration: 5s;
+    cursor: default;      
+}
+@keyframes ki2 {
+    from {right: 19%;}
+    to {right: 7%;}
+}
+#kiki {
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    bottom: 37%;
+    right: 37%;
+}
+#kiki:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;   
+}

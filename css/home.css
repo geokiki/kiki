@@ -1,0 +1,22 @@
+#purple {
+    background-color: #d7a9e3;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    width: 430px;
+} 
+#userinfo {
+    background-color: #ffffff;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 50px;
+    outline: 0px;
+    border-right: 1px solid #d751f8;    
+}
+#avatar {
+    position: relative;
+    left: 4%;
+}

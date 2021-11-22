@@ -1,0 +1,46 @@
+<!DOCTYPE html><html>
+    <head>
+      <title>
+        Signup - KIKI
+      </title>
+      <link rel="Message icon" href="./img/message.ico" type="image/x-icon">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="./css/signup.css">
+      <script src="./js/signup.js"></script>
+    </head>
+  
+    <body id="body"> 
+         <div id="transLayer">   
+       </div> 
+         <div id="signupform" >
+        <span id="messageimg">
+        <img src="./img/icons8-message-64.png" alt="messageimg" width="35px" height="35px">
+        </span>
+        <span>
+        <h3 id="signup">Create An Account</h3>
+        </span>
+        <form>
+          <input type="text" placeholder="Fullname" id="fullname"> 
+          <input type="text" placeholder="Username" id="username">
+          <input type="email" placeholder="Email Address" id="email">
+          <input type="password" placeholder="Password" id="password" autocomplete="on">
+
+          <div style="margin-top: 15px;">
+           <label id="terms">
+             I have read and accepted the<a href="terms and conditions.html" id="tc">Terms & Conditions</a>
+             <input type="checkbox" checked="checked" id="check">
+           </label>
+          </div>
+          <input type="button" value="Signup" id="signup2" onclick="toHome()">
+          <div style="margin-top: 20px; position: relative; left: 9%;" >
+            <span id="aam"><b>Already a member?</b></span>
+            <span><a href="login.html" id="si"><b>Sign in</b></a></span>
+        </div>
+        </form>
+        </div>
+        <div id="kiki">
+          <span id="ki">KI</span>
+          <span id="ki2">KI</span>
+      </div>
+      </body>
+    </html>
